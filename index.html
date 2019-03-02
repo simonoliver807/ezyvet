@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Shopping Cart Code Test</title>
+  <meta name="description" content="Code Test">
+  <meta name="author" content="Simon Oliver">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+  <script type="text/javascript" src="sCart.js"></script>
+  <div>
+  	<table class="table table-striped table bordered">
+  		<thead>
+  			<tr><td>Product Name</td><td>Price</td><td>Add Products</td></tr>
+  		</thead>
+      <tbody id="prodTable">
+      </tbody>
+
+    </table>
+  </div>
+  <div>
+    <div style="margin: 20px 0 10px 0">Cart</div> 
+    <table class="table table-striped table bordered">
+      <thead>
+        <tr><td>Product Name</td><td>Price</td><td>Quantity</td><td>total</td><td>Remove Product</td></tr>
+      </thead>
+      <tbody id="itemTable">
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <div style="float: left;">Total Price £</div>
+    <div style="float: left;" id="totalPrice"></div> 
+  </div>
+</body>
+</html>
